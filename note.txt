@@ -1,0 +1,8 @@
+
+## Websocket Setup
+
+1.composer require beyondcode/laravel-websockets -w
+2.php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
+3.php artisan migrate
+4.php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"
+5.composer require pusher/pusher-php-server
