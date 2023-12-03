@@ -6,3 +6,4 @@
 3.php artisan migrate  <br> <br>
 4.php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"  <br> <br>
 5.composer require pusher/pusher-php-server  <br> <br>
+6.php artisan websocket:serve
